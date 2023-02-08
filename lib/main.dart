@@ -52,16 +52,19 @@ class ArtApp extends StatelessWidget {
               padding: EdgeInsets.fromLTRB(20, 20, 0, 0),
               child: Text('Name:')
               ),
+              Padding(padding: EdgeInsets.fromLTRB(10, 20, 0, 0),
+              child: Text('"name"'),
+              ),
               Padding(padding: EdgeInsets.fromLTRB(165,20,0,0),
               child: Text('Name:'),
               ),
               Padding(padding: EdgeInsets.fromLTRB(10, 20, 0, 0),
-              child: Text('name'),
+              child: Text('"name"'),
               )
           ],
         ),
         Padding(
-          padding: EdgeInsets.fromLTRB(20, 40, 0, 0),
+          padding: const EdgeInsets.fromLTRB(20, 40, 0, 0),
           child: Row(
             children: const <Widget>[
               Image(image: AssetImage('assets/IMG 3.jpg'), width: 150,),
@@ -76,16 +79,19 @@ class ArtApp extends StatelessWidget {
               padding: EdgeInsets.fromLTRB(20, 20, 0, 0),
               child: Text('Name:')
               ),
+              Padding(padding: EdgeInsets.fromLTRB(10, 20, 0, 0),
+              child: Text('"name"'),
+              ),
               Padding(padding: EdgeInsets.fromLTRB(165,20,0,0),
               child: Text('Name:'),
               ),
               Padding(padding: EdgeInsets.fromLTRB(10, 20, 0, 0),
-              child: Text('name'),
+              child: Text('"name"'),
               )
           ],
         ),
         Padding(
-          padding: EdgeInsets.fromLTRB(20, 40, 0, 0),
+          padding: const EdgeInsets.fromLTRB(20, 40, 0, 0),
           child: Row(
             children: const <Widget>[
               Image(image: AssetImage('assets/IMG 3.jpg'), width: 150,),
