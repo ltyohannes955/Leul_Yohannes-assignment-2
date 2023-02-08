@@ -98,6 +98,22 @@ class ArtApp extends StatelessWidget {
               Image(image: AssetImage('assets/IMG 4.jpg'), width: 150,),
             ],
           ),
+        ),Row(
+          children: const <Widget>[
+            Padding(
+              padding: EdgeInsets.fromLTRB(20, 20, 0, 0),
+              child: Text('Name:')
+              ),
+              Padding(padding: EdgeInsets.fromLTRB(10, 20, 0, 0),
+              child: Text('"name"'),
+              ),
+              Padding(padding: EdgeInsets.fromLTRB(110,20,0,0),
+              child: Text('Name:'),
+              ),
+              Padding(padding: EdgeInsets.fromLTRB(10, 20, 0, 0),
+              child: Text('"name"'),
+              )
+          ],
         ),
         Padding(
           padding: const EdgeInsets.fromLTRB(20, 40, 0, 0),
@@ -109,6 +125,23 @@ class ArtApp extends StatelessWidget {
             ],
           ),
         ),
+        Row(
+          children: const <Widget>[
+            Padding(
+              padding: EdgeInsets.fromLTRB(20, 20, 0, 0),
+              child: Text('Name:')
+              ),
+              Padding(padding: EdgeInsets.fromLTRB(10, 20, 0, 0),
+              child: Text('"name"'),
+              ),
+              Padding(padding: EdgeInsets.fromLTRB(110,20,0,0),
+              child: Text('Name:'),
+              ),
+              Padding(padding: EdgeInsets.fromLTRB(10, 20, 0, 0),
+              child: Text('"name"'),
+              )
+          ],
+        ),
         Padding(
           padding: const EdgeInsets.fromLTRB(20, 40, 0, 0),
           child: Row(
@@ -118,7 +151,24 @@ class ArtApp extends StatelessWidget {
               Image(image: AssetImage('assets/IMG 5.jpg'), width: 150,),
             ],
           ),
-        )
+        ),
+        Row(
+          children: const <Widget>[
+            Padding(
+              padding: EdgeInsets.fromLTRB(20, 20, 0, 0),
+              child: Text('Name:')
+              ),
+              Padding(padding: EdgeInsets.fromLTRB(10, 20, 0, 0),
+              child: Text('"name"'),
+              ),
+              Padding(padding: EdgeInsets.fromLTRB(110,20,0,0),
+              child: Text('Name:'),
+              ),
+              Padding(padding: EdgeInsets.fromLTRB(10, 20, 0, 0),
+              child: Text('"name"'),
+              )
+          ],
+        ),
       ],
     ),
       bottomNavigationBar: BottomNavigationBar(
