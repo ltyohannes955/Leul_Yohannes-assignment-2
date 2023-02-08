@@ -1,3 +1,5 @@
+import 'package:artapp/artdescription.dart';
+import 'package:artapp/arts.dart';
 import 'package:flutter/material.dart';
 
 // ignore: prefer_const_constructors
@@ -35,140 +37,14 @@ class ArtApp extends StatelessWidget {
           
         ),
         const SizedBox(height: 10,),
-        Padding(
-          padding: const EdgeInsets.fromLTRB(20, 0, 10, 0),
-          child: Row(
-            children: const <Widget>[
-              Image(image: AssetImage('assets/IMG 2.jpg'), width: 150, ),
-              SizedBox(width: 50,),
-              Image(image: AssetImage('assets/IMG 6.jpg'), width: 150, ),
-            ],
-          ),
-        ),
-        Row(
-          children: const <Widget>[
-            Padding(
-              padding: EdgeInsets.fromLTRB(20, 20, 0, 0),
-              child: Text('Name:')
-              ),
-              Padding(padding: EdgeInsets.fromLTRB(10, 20, 0, 0),
-              child: Text('"name"'),
-              ),
-              Padding(padding: EdgeInsets.fromLTRB(110,20,0,0),
-              child: Text('Name:'),
-              ),
-              Padding(padding: EdgeInsets.fromLTRB(10, 20, 0, 0),
-              child: Text('"name"'),
-              )
-          ],
-        ),
-        Padding(
-          padding: const EdgeInsets.fromLTRB(20, 40, 0, 0),
-          child: Row(
-            children: const <Widget>[
-              Image(image: AssetImage('assets/IMG 5.jpg'), width: 150,),
-              SizedBox(width: 50,),
-              Image(image: AssetImage('assets/IMG 3.jpg'), width: 150,),
-            ],
-          ),
-        ),
-         Row(
-          children: const <Widget>[
-            Padding(
-              padding: EdgeInsets.fromLTRB(20, 20, 0, 0),
-              child: Text('Name:')
-              ),
-              Padding(padding: EdgeInsets.fromLTRB(10, 20, 0, 0),
-              child: Text('"name"'),
-              ),
-              Padding(padding: EdgeInsets.fromLTRB(110,20,0,0),
-              child: Text('Name:'),
-              ),
-              Padding(padding: EdgeInsets.fromLTRB(10, 20, 0, 0),
-              child: Text('"name"'),
-              )
-          ],
-        ),
-        Padding(
-          padding: const EdgeInsets.fromLTRB(20, 40, 0, 0),
-          child: Row(
-            children: const <Widget>[
-              Image(image: AssetImage('assets/IMG 2.jpg'), width: 150,),
-              SizedBox(width: 50,),
-              Image(image: AssetImage('assets/IMG 4.jpg'), width: 150,),
-            ],
-          ),
-        ),Row(
-          children: const <Widget>[
-            Padding(
-              padding: EdgeInsets.fromLTRB(20, 20, 0, 0),
-              child: Text('Name:')
-              ),
-              Padding(padding: EdgeInsets.fromLTRB(10, 20, 0, 0),
-              child: Text('"name"'),
-              ),
-              Padding(padding: EdgeInsets.fromLTRB(110,20,0,0),
-              child: Text('Name:'),
-              ),
-              Padding(padding: EdgeInsets.fromLTRB(10, 20, 0, 0),
-              child: Text('"name"'),
-              )
-          ],
-        ),
-        Padding(
-          padding: const EdgeInsets.fromLTRB(20, 40, 0, 0),
-          child: Row(
-            children: const <Widget>[
-              Image(image: AssetImage('assets/IMG 2.jpg'), width: 150,),
-              SizedBox(width: 50,),
-              Image(image: AssetImage('assets/IMG 1.jpg'), width: 150,),
-            ],
-          ),
-        ),
-        Row(
-          children: const <Widget>[
-            Padding(
-              padding: EdgeInsets.fromLTRB(20, 20, 0, 0),
-              child: Text('Name:')
-              ),
-              Padding(padding: EdgeInsets.fromLTRB(10, 20, 0, 0),
-              child: Text('"name"'),
-              ),
-              Padding(padding: EdgeInsets.fromLTRB(110,20,0,0),
-              child: Text('Name:'),
-              ),
-              Padding(padding: EdgeInsets.fromLTRB(10, 20, 0, 0),
-              child: Text('"name"'),
-              )
-          ],
-        ),
-        Padding(
-          padding: const EdgeInsets.fromLTRB(20, 40, 0, 0),
-          child: Row(
-            children: const <Widget>[
-              Image(image: AssetImage('assets/IMG 3.jpg'), width: 150,),
-              SizedBox(width: 50,),
-              Image(image: AssetImage('assets/IMG 5.jpg'), width: 150,),
-            ],
-          ),
-        ),
-        Row(
-          children: const <Widget>[
-            Padding(
-              padding: EdgeInsets.fromLTRB(20, 20, 0, 0),
-              child: Text('Name:')
-              ),
-              Padding(padding: EdgeInsets.fromLTRB(10, 20, 0, 0),
-              child: Text('"name"'),
-              ),
-              Padding(padding: EdgeInsets.fromLTRB(110,20,0,0),
-              child: Text('Name:'),
-              ),
-              Padding(padding: EdgeInsets.fromLTRB(10, 20, 0, 0),
-              child: Text('"name"'),
-              )
-          ],
-        ),
+        const Myart(),
+        const MyArtDis(),
+        const Myart(),
+        const MyArtDis(),
+        const Myart(),
+        const MyArtDis(),
+        const Myart(),
+        const MyArtDis(),
       ],
     ),
       bottomNavigationBar: BottomNavigationBar(
