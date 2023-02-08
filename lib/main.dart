@@ -23,6 +23,7 @@ class ArtApp extends StatelessWidget {
       ],
     ),
     body: Column(
+      
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
         Container(
@@ -34,9 +35,9 @@ class ArtApp extends StatelessWidget {
           fontStyle: FontStyle.italic),),
           
         ),
-        SizedBox(height: 10,),
+        const SizedBox(height: 10,),
         Padding(
-          padding: EdgeInsets.fromLTRB(20, 0, 10, 0),
+          padding: const EdgeInsets.fromLTRB(20, 0, 10, 0),
           child: Row(
             children: const <Widget>[
               Image(image: AssetImage('assets/IMG 2.jpg'), width: 150, ),
@@ -49,19 +50,56 @@ class ArtApp extends StatelessWidget {
           children: const <Widget>[
             Padding(
               padding: EdgeInsets.fromLTRB(20, 20, 0, 0),
-              child: Text('Img 1')
+              child: Text('Name:')
               ),
               Padding(padding: EdgeInsets.fromLTRB(165,20,0,0),
-              child: Text('img 2'),
+              child: Text('Name:'),
               ),
+              Padding(padding: EdgeInsets.fromLTRB(10, 20, 0, 0),
+              child: Text('name'),
+              )
           ],
+        ),
+        Padding(
+          padding: EdgeInsets.fromLTRB(20, 40, 0, 0),
+          child: Row(
+            children: const <Widget>[
+              Image(image: AssetImage('assets/IMG 3.jpg'), width: 150,),
+              SizedBox(width: 50,),
+              Image(image: AssetImage('assets/IMG 3.jpg'), width: 150,),
+            ],
+          ),
+        ),
+         Row(
+          children: const <Widget>[
+            Padding(
+              padding: EdgeInsets.fromLTRB(20, 20, 0, 0),
+              child: Text('Name:')
+              ),
+              Padding(padding: EdgeInsets.fromLTRB(165,20,0,0),
+              child: Text('Name:'),
+              ),
+              Padding(padding: EdgeInsets.fromLTRB(10, 20, 0, 0),
+              child: Text('name'),
+              )
+          ],
+        ),
+        Padding(
+          padding: EdgeInsets.fromLTRB(20, 40, 0, 0),
+          child: Row(
+            children: const <Widget>[
+              Image(image: AssetImage('assets/IMG 3.jpg'), width: 150,),
+              SizedBox(width: 50,),
+              Image(image: AssetImage('assets/IMG 3.jpg'), width: 150,),
+            ],
+          ),
         )
       ],
     ),
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: Colors.black,
         unselectedItemColor: Colors.white,
-        selectedItemColor: Color.fromARGB(255, 251, 202, 40),
+        selectedItemColor: const Color.fromARGB(255, 251, 202, 40),
     items: const <BottomNavigationBarItem>[
       BottomNavigationBarItem(
         icon: Icon(Icons.home),
@@ -75,10 +113,8 @@ class ArtApp extends StatelessWidget {
         icon: Icon(Icons.category_rounded),
         label: ('category')
       ),
-      
     ],
   ),
-
   );
   }
 }
